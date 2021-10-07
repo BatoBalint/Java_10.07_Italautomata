@@ -10,6 +10,6 @@ public class Kave extends Forroital {
 
     @Override
     public String toString() {
-        return String.format("%s, plusz tej: %d", super.toString(), plusTej);
+        return String.format("%s, plusz tej: %d", super.toString(), this.plusTej);
     }
 }
