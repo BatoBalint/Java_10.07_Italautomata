@@ -6,6 +6,8 @@ import java.util.Random;
 public class Main {
     public static ArrayList<Forroital> forroitalok;
 
+
+
     public static void main(String[] args) {
         forroitalok = new ArrayList<>();
 
@@ -35,7 +37,7 @@ public class Main {
             int method = r.nextInt(3);
             switch (method) {
                 case 0:
-                    forroitalok.get(i).arEmelesRandom();
+                    forroitalok.get(i).arEmeles();
                     break;
                 case 1:
                     forroitalok.get(i).arEmeles20();
@@ -43,7 +45,6 @@ public class Main {
                 case 2:
                     forroitalok.get(i).arEmeles(r.nextInt(11)+10);
                     break;
-
             }
         }
     }

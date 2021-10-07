@@ -22,8 +22,8 @@ public class Forroital {
         ar += mennyivel;
     }
 
-    public void arEmelesRandom() {
-        ar += (r.nextInt(31) + 20);
+    public void arEmeles() {
+        ar += (r.nextInt(51) + 50);
     }
 
     public void arEmeles20() {
