@@ -7,4 +7,9 @@ public class Tea extends Forroital {
         super(nev, mennyiseg, kellPohar, ar);
         this.citrom = citrom;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s, citrom: %d", super.toString(), this.citrom);
+    }
 }
